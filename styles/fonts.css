@@ -1,0 +1,42 @@
+@font-face{
+    font-family: "Pacific-Regular";
+    src: url("../fonts/Pacifico/Pacifico-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Oswald-Light";
+    src: url("../fonts/Oswald/Oswald-Light.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Oswald-Regular";
+    src: url("../fonts/Oswald/Oswald-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Oswald-Medium";
+    src: url("../fonts/Oswald/Oswald-Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Oswald-Semibold";
+    src: url("../fonts/Oswald/Oswald-SemiBold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Oswald-Bold";
+    src: url("../fonts/Oswald/Oswald-Bold.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: "Quicksand-Regular";
+    src: url("../fonts/Quicksand/Quicksand-Regular.ttf") format("truetype");
+}
+@font-face{
+    font-family: "Quicksand-Medium";
+    src: url("../fonts/Quicksand/Quicksand-Medium.ttf") format("truetype");
+}
+@font-face{
+    font-family: "Quicksand-Semibold";
+    src: url("../fonts/Quicksand/Quicksand-SemiBold.ttf") format("truetype");
+}
+@font-face{
+    font-family: "Quicksand-Bold";
+    src: url("../fonts/Quicksand/Quicksand-Bold.ttf") format("truetype");
+}

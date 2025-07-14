@@ -1,0 +1,410 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f4d35e;
+}
+
+/* header___________________________________________________________________________ */
+.header{
+    width: 100%;
+    height: auto;
+}
+.header__navbar{
+    width: 100%;
+    height: 4.5rem;
+    background: linear-gradient(to top, #0009, #F00036);
+    margin-top: 0.5rem;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0rem;  
+
+    border-top: 0.1rem solid white;
+    border-bottom: 0.2rem solid white;
+    border-radius: 0rem 0rem 1rem 1rem;
+    padding: 0.2rem 0 0.3rem 0;
+    position: fixed;
+    z-index: 2;
+}
+.header__navbar a{
+    font-family: Oswald-Regular, Helvetica;
+    letter-spacing: 0.2rem;
+    font-size: 1rem;
+    text-decoration: none;
+
+    color: white;
+    padding: 0rem 0.7rem;
+
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+
+.header__title{
+    font-family: Pacific-Regular, Helvetica;
+    font-size: 4.5rem;
+    text-align: center;
+
+    background-color: #F00036;
+    color: white;
+    padding-top: 5rem;
+
+    position: relative;
+    z-index: 1;
+}
+.header__image{
+    width: 100%;
+    height: auto;
+    margin-top: auto;
+    position: relative;
+    z-index: 1;
+}
+
+/* modificaciones */
+.header__navbar__img1{
+    position: fixed;
+    left: 0;
+    top: 1rem;
+}
+.header__navbar__img1>img{
+    width: 3rem;    
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+.header__navbar__img2>img{
+    width: 7.5rem;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+/* efectos generales */
+.header__navbar__img1>img:hover{
+    filter: drop-shadow(0px 0px 5px white);
+    width: 3.2rem;
+}
+.header__navbar__img2>img:hover{
+    filter: drop-shadow(0px 0px 5px white);
+    width: 7.7rem;
+}
+.header__navbar a:hover{
+    filter: drop-shadow(0px 0px 5px white);
+    font-size: 1.2rem;
+}
+
+/* wrapper__________________________________________________________________________ */
+.wrapper{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-flow: column nowrap;
+}
+.wrapper__container{
+    width: 100%;
+    height: 35rem;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.container1{
+    object-fit: contain;
+    margin-top: -4.5rem;
+
+    overflow: hidden;
+}
+
+.container2{
+    background-color: #E89725;
+}
+.container2__div1{
+    width: 100%;
+    min-width: 20rem;
+    max-width: 35rem; 
+    height: 100%;
+}
+.container2__div1 img{
+    width: 100%;
+    height: 100%;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.container2__div2{
+    width: 100%;
+    padding-left: 15%;
+    text-align: center;
+}
+.container2__div2 h2{
+    font-family: Pacific-Regular, Helvetica;
+    font-size: 3rem;
+    color: white;
+}
+.container2__div2 p{
+    font-family: Oswald-Regular, Helvetica;
+    font-size: 1.5rem;
+    color: white;
+    padding: 2rem 0 3rem 0;
+}
+.container2__div2 a{
+    font-family: Helvetica, Verdana;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+
+    color: #F00036;
+    background-color: white;
+
+    border: 0.2rem solid #F00036;
+    border-radius: 5rem;
+    filter: drop-shadow(0 0 0.3rem white);
+    padding: 1rem 2rem;
+
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.container3{
+    height: auto;
+    background-color: #DE3A3A;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 5rem;
+    padding: 4rem 0 6rem 0;
+}
+.container3 h2{
+    font-family: Pacific-Regular, Helvetica;
+    font-size: 3rem;
+    color: white;
+}
+.container3__div{
+    width: 100%;
+    min-width: 20rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 3rem;
+
+}
+.container3__div img{
+    width: 12rem;
+    height: auto;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.container3__div p{
+    font-family: Oswald-Regular, Helvetica;
+    font-size: 1.3rem;
+    color: white;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    transition-property: all;
+    transition-duration: 1.5s;
+}
+
+.container4{
+    background-color: #9B41C9;
+    margin-bottom: -0.8rem;
+}
+.container4__div1{
+    width: 100%;
+    padding-right: 15%;
+    text-align: center;
+}
+.container4__div1 h2{
+    font-family: Pacific-Regular, Helvetica;
+    font-size: 2.5rem;
+    color: white;
+    line-height: 1;
+}
+.container4__div1__div{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.container4__div1__div>div{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.container4__div1__div>div>img{
+    width: 4rem;
+    height: auto;
+    padding: 2rem 0 1rem 0;
+}
+.container4__div1__div>div>a{
+    font-family: Helvetica, Verdana;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+
+    color: #F00036;
+    background-color: white;
+
+    border: 0.2rem solid #F00036;
+    border-radius: 5rem;
+    filter: drop-shadow(0 0 0.3rem white);
+    padding: 0.5rem 1rem;
+
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+.container4__div2{
+    width: 100%;
+    min-width: 15rem;
+    max-width: 30rem;
+    height: 30rem;
+    padding-right: 5%;
+}
+.container4__div2 img{
+    width: 100%;
+    height: 100%;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+/* efectos generales */
+.container2__div1 img:hover{
+    width: 102%;
+    height: 102%;
+}
+.container2__div2 a:hover{
+    color: white;
+    background-color: #F00036;
+    border: 0.2rem solid white;
+    font-size: 1.7rem;
+}
+
+.container3__div img:hover{
+    filter: drop-shadow(0 0 0.5rem white);
+    width: 12.3rem;
+}
+.container3__div p:hover{
+    font-size: 1.5rem;
+}
+
+.container4__div1__div>div>a:hover{
+    color: white;
+    background-color: #F00036;
+    border: 0.2rem solid white;
+    font-size: 1.2rem;
+}
+.container4__div2 img:hover{
+    width: 102%;
+    height: 102%;
+}
+
+/* footer___________________________________________________________________________ */
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: #F00036;
+    border-radius: 1rem 1rem 0rem 0rem;
+    border-top: 0.2rem solid white;
+    position: relative;
+    z-index: 1;
+}
+
+.footer__rights{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+
+    padding: 1rem 0 0 0;
+}
+.footer__rights p{
+    font-family: Oswald-Regular, Helvetica;
+    font-size: 1rem;
+    color: white;
+    letter-spacing: 2px;
+
+    text-align: center;
+    text-wrap: pretty;
+}
+
+.footer__contacts{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2rem 0 2rem 0;
+}
+.footer__contacts p{
+    font-family: Helvetica, Verdana;
+    font-size: 0.9rem;
+    color: white;
+    text-align: center;
+    text-wrap: balance;
+}
+.footer__contacts img{
+    width: 2rem;
+    height: auto;
+
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.footer__image{
+    width: 100%;
+    height: auto;
+}
+
+.redes{
+    width: 3rem;
+    height: 10rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+
+    position: fixed;
+    z-index: 5;
+    bottom: 4rem;
+    left: 0;
+
+    background-color: #e74c3c;
+    border-radius: 0 2rem 2rem 0;
+
+    transition-property: all;
+    transition-duration: 1s;
+}
+.redes>a>img {
+    width: 1.5rem;
+    height: auto;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+/* sub-clases */
+.hidden{
+    color: transparent;
+}
+.hidden::selection{
+    color: transparent;
+}
+
+/* efectos generales */
+.footer__contacts img:hover{
+    width: 2.5rem;
+}
+
+.redes:hover{
+    width: 3.5rem;
+}
+.redes>a>img:hover{
+    filter: drop-shadow(0 0 0.3rem white);
+}
+
+/* _____________________________DISPOSITIVOS MOVILES _______________________________ */
